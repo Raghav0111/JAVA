@@ -1,0 +1,1 @@
+This Repository Contains all the code practised in JAVA Covering Basic Java (Data Types, Variables, conditional Staements,Loops, Functions,) and OOPS Concepts and Data Structures upto Trees (For Now).

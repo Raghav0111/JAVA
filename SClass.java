@@ -121,7 +121,7 @@ public class SClass{
         
         // Push At bottom of stack;
         //pushAtBottom(4, s);
-        PrintStack(s);
+        // PrintStack(s);
         
         System.out.println("---------------------------");
         // Reverse a stack

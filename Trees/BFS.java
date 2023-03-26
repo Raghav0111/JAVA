@@ -30,18 +30,29 @@ class BFS{
             Queue<Node> q = new LinkedList<>();
 
             q.add(root);
+            // Adding next line
+            q.add(null);
             while(!q.isEmpty()){
                 Node curr = q.poll();
-                System.out.print(curr.data+ " ");
+                if(curr == null){
+                    if(!q.isEmpty()){
+                        q.add(null);
+                        System.out.println();
+                    }
+                }
+                else{
+                    System.out.print(curr.data+ " ");
 
-                if(curr.left!=null){
+                    if(curr.left!=null){
                     q.add(curr.left);
-                }
+                    }
 
-                if(curr.right!=null){
+                    if(curr.right!=null){
                     q.add(curr.right);
+                    }
+                
                 }
-                System.out.println();
+                
             }
         }
     

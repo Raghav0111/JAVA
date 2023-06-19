@@ -59,6 +59,4 @@ public class SizeofBT {
 
         System.out.println("The smallest element in this tree is: " + tree.Minimum(tree.root));
     }
-
-
 }
